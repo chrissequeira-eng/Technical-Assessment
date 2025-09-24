@@ -1,1 +1,9 @@
-#First Curl Question
+#First Curl Question:Simple
+curl -X POST "http://localhost:8000/ask" \
+-H "Content-Type: application/json" \
+-d '{"question": "what are the following documentation must be included in a Technical File"}'
+
+#Second Curl Question:tricky
+curl -X POST "http://localhost:8000/ask" \
+-H "Content-Type: application/json" \
+-d '{"question": "What are the us regulations"}'
